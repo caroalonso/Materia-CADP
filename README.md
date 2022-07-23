@@ -16,7 +16,8 @@
 
  ### 💻 Practicas:
 
-* [Practica 1]()
+*[Practica 1](Practicas/Practica 1/Practica 1 cadp.pdf)
+ 
 
      
   

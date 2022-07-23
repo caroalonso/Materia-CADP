@@ -21,11 +21,11 @@
      - [Ejercicio 2](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto2.pas)
      - [Ejercicio 3](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto3.pas)
      - [Ejercicio 4](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto4.pas)
-     - Ejercicio 5
-     - Ejercicio 6 
-     - Ejercicio 7
-     - Ejercicio 8
-     - Ejercicio 9
+     - [Ejercicio 5](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto5.pas)
+     - [Ejercicio 6]()
+     - [Ejercicio 7]()
+     - [Ejercicio 8]()
+     - [Ejercicio 9]()
 
 
 

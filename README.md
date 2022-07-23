@@ -12,4 +12,4 @@
 * [Clase 9](Teorias/teoria_9.pdf)
 * [Clase 10](Teorias/teoria_10.pdf)
 * [Clase 11](Teorias/teoria_11.pdf)
-* [Clase 12](Teorias/teoria_12.pdf)
+* [Clase 12](Teorias/teroria_12.pdf)

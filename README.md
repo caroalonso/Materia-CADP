@@ -28,5 +28,10 @@
      - [Ejercicio 9](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto9.pas) :computer:
      
  * [Practica 2](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%202/Practica_2.pdf) :page_facing_up:     
+     - [Ejercicio 1]() :computer:      
+     - [Ejercicio 2]() :computer:
+     - [Ejercicio 3]() :computer:
+     - [Ejercicio 4]() :computer:
+     - [Ejercicio 5]() :computer:
 
 

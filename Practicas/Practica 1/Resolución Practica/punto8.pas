@@ -1,6 +1,6 @@
 { 8. Realizar un programa que lea tres caracteres, e informe si los tres eran letras vocales o si
-al menos una de ellos no lo era.
-}
+al menos una de ellos no lo era.}
+
 Program punto8;
 var
   letra1:char;

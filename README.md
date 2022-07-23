@@ -15,7 +15,7 @@
 * [Clase 12](Teorias/teroria_12.pdf)
 
  ### 💻 Practicas: 
- * [Practica 1](https://github.com/Caarito/Materia-CADP/blob/0a31d102de20f4c506f059eefc2f248d4e663b90/Practicas/Practica%201/Practica%201%20cadp.pdf)
+
 
 
  

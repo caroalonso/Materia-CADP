@@ -16,12 +16,12 @@
 
  ### 💻 Practicas: 
  
- * [Practica 1](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Practica%201%20cadp.pdf)
-     - [Ejercicio 1](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto1.pas)      
-     - [Ejercicio 2](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto2.pas)
-     - [Ejercicio 3](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto3.pas)
-     - [Ejercicio 4](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto4.pas)
-     - [Ejercicio 5](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto5.pas)
+ * [Practica 1](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Practica%201%20cadp.pdf) :page_facing_up:
+     - [Ejercicio 1](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto1.pas) :computer:      
+     - [Ejercicio 2](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto2.pas) :computer:
+     - [Ejercicio 3](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto3.pas) :computer:
+     - [Ejercicio 4](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto4.pas) :computer:
+     - [Ejercicio 5](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto5.pas) :computer:
      - [Ejercicio 6]()
      - [Ejercicio 7]()
      - [Ejercicio 8]()

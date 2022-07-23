@@ -1,4 +1,4 @@
-## Conceptos de Algoritmos, Datos y Programas :computer:
+## Conceptos de Algoritmos, Datos y Programas 
 
 ## Teorias
 

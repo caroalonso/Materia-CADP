@@ -19,7 +19,7 @@
  * [Practica 1](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Practica%201%20cadp.pdf)
      - [Ejercicio 1](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto1.pas)      
      - [Ejercicio 2](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto2.pas)
-     - [Ejercicio 3] (https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto3.pas)
+     - [Ejercicio 3](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Resoluci%C3%B3n%20Practica/punto3.pas)
      - Ejercicio 4
      - Ejercicio 5
      - Ejercicio 6

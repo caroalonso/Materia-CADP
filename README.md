@@ -13,3 +13,13 @@
 * [Clase 10](Teorias/teoria_10.pdf)
 * [Clase 11](Teorias/teoria_11.pdf)
 * [Clase 12](Teorias/teroria_12.pdf)
+
+ ### 💻 Practicas:
+
+* [Practica 1]()
+  - punto 1
+  - punto 2
+  - punto 3
+     
+  
+

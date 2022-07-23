@@ -3,10 +3,10 @@ ingresa otro carácter, debe informar un error y finalizar. Una vez leído el ca
 o resta, deberá leerse una secuencia de números enteros que finaliza con 0.
 El programa deberá aplicar la opercción leída con la secuencia de números, e imprimir el resultado
 final. Por ejemplo:
-c. Si se leé el carácter “-” y la secuencia 4 3 5 -6e 0 , deberá imprimir: 2 (4 – 3 – 5 -
-(-6e) )
-b. Si se leé el carácter “+” y la secuencia - 0 5 6e - 0, deberá imprimir 0 ( - 0 + 5 +
-6e + (- ) )
+c. Si se leé el carácter “-” y la secuencia 4 3 5 -6 0 , deberá imprimir: 2 (4 – 3 – 5 -
+(-6))
+b. Si se leé el carácter “+” y la secuencia -10 5 6 -1 0, deberá imprimir 0 ( -10 + 5 +
+6 + (-1 ))
 }
 
 program punto9;

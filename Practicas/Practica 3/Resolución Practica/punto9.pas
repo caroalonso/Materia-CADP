@@ -5,7 +5,7 @@
 
 Nota: en caso de no cumplir, informar que parte del patrón no se cumplió.
 
-resumen: vocales + $ + secuencia con ninguna vocal + #
+resumen: vocales + $ + secuencia sin vocales + #
 
 }
 

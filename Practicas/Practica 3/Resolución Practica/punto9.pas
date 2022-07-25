@@ -1,13 +1,10 @@
 { 9.Realizar un programa que lea una secuencia de caracteres y verifique si cumple con el patrón A$B#  donde:
 -A es una secuencia de sólo letras vocales.
--B es una secuencia de sólo caracteres alfabéticos sin letras vocales
--los caracteres $ y # seguro existen
-
+-B es una secuencia de sólo caracteres alfabéticos sin letras vocales.
+-los caracteres $ y # seguro existen.
 Nota: en caso de no cumplir, informar que parte del patrón no se cumplió.
 
-resumen: vocales + $ + secuencia sin vocales + #
-
-}
+resumen: vocales + $ + secuencia sin vocales + #   }
 
 Program punto9;
 

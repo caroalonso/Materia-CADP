@@ -14,6 +14,10 @@
 * [Clase 11](Teorias/teoria_11.pdf) :open_book:
 * [Clase 12](Teorias/teroria_12.pdf) :open_book:
 
+### :clapper: Videos:
+* [Teorías](https://www.youtube.com/watch?v=sLHYjY6LvwA&list=PL3a_0yafSm3irdB7iRbCrGRpPJ8rAV6KW&index=2) :film_strip:
+* [Prácticas]() :film_strip:
+
  ### 💻 Practicas: 
  
  * [Practica 1](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Practica%201%20cadp.pdf) :page_facing_up:

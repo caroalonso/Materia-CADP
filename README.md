@@ -16,7 +16,7 @@
 
 ### :clapper: Videos:
 * [Teorías](https://www.youtube.com/watch?v=1PsldQposS0&list=PL3a_0yafSm3irdB7iRbCrGRpPJ8rAV6KW&index=10) :film_strip:
-* [Prácticas]() :film_strip:
+* [Prácticas](https://www.youtube.com/watch?v=CJn123XkDwA&list=PL3a_0yafSm3hc9tnmNHnjtj93x2S8H1dY&index=1) :film_strip:
 
  ### 💻 Practicas: 
  

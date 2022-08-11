@@ -15,7 +15,7 @@
 * [Clase 12](Teorias/teroria_12.pdf) :open_book:
 
 ### :clapper: Videos:
-* [Teorías](https://www.youtube.com/watch?v=sLHYjY6LvwA&list=PL3a_0yafSm3irdB7iRbCrGRpPJ8rAV6KW&index=2) :film_strip:
+* [Teorías](https://www.youtube.com/watch?v=1PsldQposS0&list=PL3a_0yafSm3irdB7iRbCrGRpPJ8rAV6KW&index=10) :film_strip:
 * [Prácticas]() :film_strip:
 
  ### 💻 Practicas: 
@@ -61,6 +61,4 @@
 
      
      
-     
-
-
+    

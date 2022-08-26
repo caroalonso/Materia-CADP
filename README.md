@@ -1,16 +1,19 @@
-## Introduccion al Sistema Operativo
+## Conceptos de Algoritmos, Datos y Programas
 
 ### :books: Teorias:
-* [Clase 1]() :open_book:
-* [Clase 2]() :open_book:
-* [Clase 3]() :open_book:
-* [Clase 4]() :open_book:
-* [Clase 5]() :open_book:
-* [Clase 6]() :open_book:
-* [Clase 7]() :open_book:
-* [Clase 8]() :open_book:
-* [Clase 9]() :open_book:
-* [Clase 1]() :open_book:
+* [Clase 1](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_1.pdf) :open_book:
+* [Clase 2](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_2.pdf) :open_book:
+* [Clase 3](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_3.pdf) :open_book:
+* [Clase 4](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_4.pdf) :open_book:
+* [Clase 5](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_5.pdf) :open_book:
+* [Clase 6](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_6.pdf) :open_book:
+* [Clase 7](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_7.pdf) :open_book:
+* [Clase 8](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_8.pdf) :open_book:
+* [Clase 9](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_9.pdf) :open_book:
+* [Clase 10]() :open_book:
+* [Clase 11]() :open_book:
+* [Clase 12]() :open_book:
+* [Clase 13]() :open_book:
 
 
 

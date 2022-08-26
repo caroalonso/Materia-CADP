@@ -1,17 +1,22 @@
 ## Introduccion al Sistema Operativo
 
 ### :books: Teorias:
-* [Tema 1 - Introducción]() :open_book:
-* [Tema 2 - Procesos]() :open_book:
-* [Tema 3 - Memoria]() :open_book:
-* [Tema 4 - IO]() :open_book:
-* [Tema 5 - File System]() :open_book:
-* [Tema 6 - Buffer Cache]() :open_book:
+* [Clase 1]() :open_book:
+* [Clase 2]() :open_book:
+* [Clase 3]() :open_book:
+* [Clase 4]() :open_book:
+* [Clase 5]() :open_book:
+* [Clase 6]() :open_book:
+* [Clase 7]() :open_book:
+* [Clase 8]() :open_book:
+* [Clase 9]() :open_book:
+* [Clase 1]() :open_book:
+
 
 
 ### :clapper: Videos:
-* [Teorías](https://www.youtube.com/playlist?list=PL3a_0yafSm3jqtnNdrsTGUcD7zRm21AqP) :film_strip:
-* [Prácticas]() :film_strip:
+* [Teorías](https://www.youtube.com/playlist?list=PL3a_0yafSm3irdB7iRbCrGRpPJ8rAV6KW) :film_strip:
+* [Prácticas](https://www.youtube.com/playlist?list=PL3a_0yafSm3hc9tnmNHnjtj93x2S8H1dY) :film_strip:
 
  ### 💻 Practicas: 
  

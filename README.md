@@ -1,22 +1,17 @@
-## Conceptos de Algoritmos, Datos y Programas 
+## Introduccion al Sistema Operativo
 
 ### :books: Teorias:
-* [Clase 1](Teorias/teoria_1.pdf) :open_book:
-* [Clase 2](Teorias/teoria_2.pdf) :open_book:
-* [Clase 3](Teorias/teoria_3.pdf) :open_book:
-* [Clase 4](Teorias/teoria_4.pdf) :open_book:
-* [Clase 5](Teorias/teoria_5.pdf) :open_book:
-* [Clase 6](Teorias/teoria_6.pdf) :open_book:
-* [Clase 7](Teorias/teoria_7.pdf) :open_book:
-* [Clase 8](Teorias/teoria_8.pdf) :open_book:
-* [Clase 9](Teorias/teoria_9.pdf) :open_book:
-* [Clase 10](Teorias/teoria_10.pdf) :open_book:
-* [Clase 11](Teorias/teoria_11.pdf) :open_book:
-* [Clase 12](Teorias/teroria_12.pdf) :open_book:
+* [Tema 1]() :open_book:
+* [Tema 2]() :open_book:
+* [Tema 3]() :open_book:
+* [Tema 4]() :open_book:
+* [Tema 5]() :open_book:
+* [Tema 6]() :open_book:
+
 
 ### :clapper: Videos:
-* [Teorías](https://www.youtube.com/watch?v=1PsldQposS0&list=PL3a_0yafSm3irdB7iRbCrGRpPJ8rAV6KW&index=10) :film_strip:
-* [Prácticas](https://www.youtube.com/watch?v=CJn123XkDwA&list=PL3a_0yafSm3hc9tnmNHnjtj93x2S8H1dY&index=1) :film_strip:
+* [Teorías](https://www.youtube.com/playlist?list=PL3a_0yafSm3jqtnNdrsTGUcD7zRm21AqP) :film_strip:
+* [Prácticas]() :film_strip:
 
  ### 💻 Practicas: 
  

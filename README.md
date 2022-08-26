@@ -12,7 +12,7 @@
 * [Clase 9](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_9.pdf) :open_book:
 * [Clase 10](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_10.pdf) :open_book:
 * [Clase 11](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_11.pdf) :open_book:
-* [Clase 12](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_12.pdf) :open_book:
+* [Clase 12](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teroria_12.pdf) :open_book:
 
 
 

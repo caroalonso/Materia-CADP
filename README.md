@@ -62,7 +62,7 @@
      - [Ejercicio 10](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%203/Resoluci%C3%B3n%20Practica/punto10.pas) :computer:
      - [Ejercicio 11](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%203/Resoluci%C3%B3n%20Practica/punto11.pas) :computer:
 
-* [Practica 4](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Practica_4.1.pdf) :page_facing_up:     
+* [Practica 4.1](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Practica_4.1.pdf) :page_facing_up:     
      - [Ejercicio 1](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.1.pas) :computer:  
      - [Ejercicio 2](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.2.pas) :computer:
      - [Ejercicio 3](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.3.pas) :computer:  

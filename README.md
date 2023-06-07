@@ -122,7 +122,7 @@ begin
 end;
 ```
 AGREGA ELEMENTO ADELANTE EN LA LISTA:
-```
+```pascal
 procedure agregar_adelante(var l: lista; dato: integer);
 var
   nue: lista;
@@ -134,7 +134,7 @@ begin
 end;
 ```
 AGREGA ELEMENTO DE MANERA ORDENADO EN LA LISTA:
-```
+```pascal
 procedure insertar_ordenado(var l: lista; var dato: integer);
 var
   nue: lista;

@@ -251,7 +251,7 @@ begin
 end;
 ```
 ___
-#### **LISTAS:**
+#### **VECTORES:**
 CARGA TOTAL DEL VECTOR:
 ```pascal
 procedure cargar_total_vector(var v: vector);

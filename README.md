@@ -62,6 +62,21 @@
      - [Ejercicio 10](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%203/Resoluci%C3%B3n%20Practica/punto10.pas) :computer:
      - [Ejercicio 11](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%203/Resoluci%C3%B3n%20Practica/punto11.pas) :computer:
 
+* [Practica 4](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Practica_4.1.pdf) :page_facing_up:     
+     - [Ejercicio 1](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.1.pas) :computer:  
+     - [Ejercicio 2](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.2.pas) :computer:
+     - [Ejercicio 3](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.3.pas) :computer:  
+     - [Ejercicio 4](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.4.pas) :computer:
+     - [Ejercicio 5](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.5.pas) :computer:
+     - [Ejercicio 6](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.6.pas) :computer:
+     - [Ejercicio 7](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.7.pas) :computer:
+     - [Ejercicio 8](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.8.pas) :computer:
+     - [Ejercicio 9](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.9.pas) :computer:
+     - [Ejercicio 10](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.10.pas) :computer:
+     - [Ejercicio 11](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.11.pas) :computer:
+     - [Ejercicio 12](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.12.pas) :computer:
+     - [Ejercicio 13](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.13.pas) :computer:
+
      
      
     

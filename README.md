@@ -1,26 +1,5 @@
 ## Conceptos de Algoritmos, Datos y Programas
 
-### :books: Teorias:
-* [Clase 1](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_1.pdf) :open_book:
-* [Clase 2](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_2.pdf) :open_book:
-* [Clase 3](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_3.pdf) :open_book:
-* [Clase 4](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_4.pdf) :open_book:
-* [Clase 5](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_5.pdf) :open_book:
-* [Clase 6](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_6.pdf) :open_book:
-* [Clase 7](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_7.pdf) :open_book:
-* [Clase 8](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_8.pdf) :open_book:
-* [Clase 9](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_9.pdf) :open_book:
-* [Clase 10](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_10.pdf) :open_book:
-* [Clase 11](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teoria_11.pdf) :open_book:
-* [Clase 12](https://github.com/Caarito/Materia-CADP/blob/main/Teorias/teroria_12.pdf) :open_book:
-
-
-
-
-### :clapper: Videos:
-* [Teorías](https://www.youtube.com/playlist?list=PL3a_0yafSm3irdB7iRbCrGRpPJ8rAV6KW) :film_strip:
-* [Prácticas](https://www.youtube.com/playlist?list=PL3a_0yafSm3hc9tnmNHnjtj93x2S8H1dY) :film_strip:
-
  ### 💻 Practicas: 
  
  * [Practica 1](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%201/Practica%201%20cadp.pdf) :page_facing_up:

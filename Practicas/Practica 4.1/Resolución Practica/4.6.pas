@@ -8,17 +8,19 @@ program punto6;
 
 procedure max_min(v:vector; diml:integer; var max:integer; var min:integer; var p1:integer; var p2:integer);
 var
-i:integer;
+  i:integer;
 begin
-    for i:= 1 to diml do begin
-		if(v[i] > max)then begin
-			max:=v[i];
-			p1:=i;
-		end;
-		if(v[i]<min)then begin
-			min:=v[i];
-			p2:=i;
-		end;
-   end;		
+  for i := 2 to diml do begin { Comienza desde el segundo valor }
+      if v[i] > max then begin
+        max := v[i];
+        p1 := i;
+      end;
+      if v[i] < min then begin
+        min := v[i];
+        p2 := i;
+      end;
+  end;	
 end;
+
+
 

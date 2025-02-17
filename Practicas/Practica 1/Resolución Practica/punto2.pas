@@ -6,14 +6,15 @@ absoluto de un número X, se escribe |X| y se define como:
 
 program punto2;
 var
-num:real
-aux:real;
+  num, aux: real;
 begin
- write('ingrese un numero real:');
- readln(num);
- if(num >= 0 )then 
-   writeln('|',num,'|=',num)
- else
-   aux:= num*(-1);
-   writeln( '|',num,'|=',aux);
+  write('Ingrese un número real: ');
+  readln(num);
+
+  if (num >= 0) then
+    writeln('|', num, '| = ', num)
+  else begin
+    aux := num * (-1);
+    writeln('|', num, '| = ', aux);
+  end;
 end.

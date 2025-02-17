@@ -10,52 +10,50 @@ Los nombres de los dos pilotos que finalizaron en los dos últimos puestos.
 
 program punto6;
 var
-  nombre: string[6];
+  nombre: string;
   tiempo: real;
-  i:integer;
-  min1:real;
-  min2:real;
-  max1:real;
-  max2:real;
-  piloto1:string [6];
-  piloto2: string [6];
-  piloto3:string [6];
-  piloto4: string [6];
+  i: integer;
+  min1, min2: real;
+  max1, max2: real;
+  piloto1, piloto2, piloto3, piloto4: string;
 begin
-  min1:=9999;
-  min2:=9999;
-  max1:=-0000;
-  max2:=-0000;
-  for i:= 1 to 100 do begin
-    writeln('ingrese tiempo: ');
+  min1 := 9999999;  { Valor alto para los mejores tiempos }
+  min2 := 9999999;
+  max1 := -1;       { Valor bajo para los peores tiempos }
+  max2 := -1;
+
+  for i := 1 to 100 do begin
+    writeln('Ingrese tiempo: ');
     readln(tiempo);
-    writeln('ingrese nombre del piloto: ');
+    writeln('Ingrese nombre del piloto: ');
     readln(nombre);
-    if(tiempo < min1 )then begin 
-       min2:=min1;
-       min1:=tiempo;
-       piloto2:=piloto1;
-       piloto1:=nombre;
-    end  
-    else begin
-      if(tiempo < min2)then begin
-        min2:=tiempo;
-        piloto2:=nombre;
-      end;
+
+    { Identificar los dos primeros puestos (mejores tiempos) }
+    if (tiempo < min1) then begin
+      min2 := min1;
+      min1 := tiempo;
+      piloto2 := piloto1;
+      piloto1 := nombre;
+    end
+    else if (tiempo < min2) then begin
+      min2 := tiempo;
+      piloto2 := nombre;
     end;
-    if(tiempo > max1 ) then begin 
-       max2:=max1;
-       max1:=tiempo;
-       piloto4:=piloto3;
-       piloto3:=nombre;
-    end   
-    else begin
-      if (tiempo>max2)then begin
-        max2:=tiempo;
-        piloto4:=nombre;
-      end;
-    end;  
+
+    { Identificar los dos últimos puestos (peores tiempos) }
+    if (tiempo > max1) then begin
+      max2 := max1;
+      max1 := tiempo;
+      piloto4 := piloto3;
+      piloto3 := nombre;
+    end
+    else if (tiempo > max2) then begin
+      max2 := tiempo;
+      piloto4 := nombre;
+    end;
   end;
-  writeln('pilotos con mejor tiempo:',piloto1,' y ',piloto2);
-  writeln('pilotos con peor tiempo:', piloto3,' y ',piloto4);  
+
+  { Mostrar los resultados }
+  writeln('Pilotos con los mejores tiempos: ', piloto1, ' y ', piloto2);
+  writeln('Pilotos con los peores tiempos: ', piloto3, ' y ', piloto4);
 end.

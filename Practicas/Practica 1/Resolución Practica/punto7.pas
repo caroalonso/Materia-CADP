@@ -14,33 +14,39 @@ b. Si se ingresa el código 37817, con precio actual 30 y nuevo precio 33,0 , de
 imprimir: “el aumento de precio del producto 37817 es superior al 10%”
 }
 
-Program punto7;
+program punto7;
 var
-  codigo:integer;
-  precio_actual:real;
-  precio_nuevo:real ;
-  diezporciento:real;
+  codigo: integer;
+  precio_actual: real;
+  precio_nuevo: real;
+  diezporciento: real;
 begin
-  writeln('ingrese codigo: ');
-  readln(codigo);
-  writeln('ingrese precio actual: ');
-  readln(precio_actual);
-  writeln('ingrese nuevo precio: ');
-  readln(precio_nuevo);
-  repeat  
-    diezporciento:= ((precio_actual*10)/100);
-    if(precio_nuevo = (precio_actual + diezporciento))then begin
-      writeln(' el aumento de precio del producto',codigo, 'es superior al 10%' );
+  repeat
+    writeln('Ingrese código: ');
+    readln(codigo);
+    if (codigo = 37817) then begin
+      writeln('Ingrese precio actual: ');
+      readln(precio_actual);
+      writeln('Ingrese nuevo precio: ');
+      readln(precio_nuevo);
+      diezporciento := (precio_actual * 10) / 100;
+      if (precio_nuevo > precio_actual + diezporciento) then
+        writeln('El aumento de precio del producto ', codigo, ' es superior al 10%')
+      else
+        writeln('El aumento de precio del producto ', codigo, ' no supera el 10%');
     end
     else begin
-      writeln ('el aumento de precio del producto ',codigo,' no supera el 10% ' ); 
+      writeln('Ingrese precio actual: ');
+      readln(precio_actual);
+      writeln('Ingrese nuevo precio: ');
+      readln(precio_nuevo);
+      diezporciento := (precio_actual * 10) / 100;
+      if (precio_nuevo > precio_actual + diezporciento) then
+        writeln('El aumento de precio del producto ', codigo, ' es superior al 10%')
+      else
+        writeln('El aumento de precio del producto ', codigo, ' no supera el 10%');
     end;
-    writeln('ingrese codigo: ');
-    readln(codigo);
-    writeln('ingrese precio actual: ');
-    readln(precio_actual);
-    writeln('ingrese nuevo precio: ');
-    readln(precio_nuevo);
-  until(codigo = 37817 );
+  until (codigo = 37817);
 end.
+
   

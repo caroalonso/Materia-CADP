@@ -7,21 +7,24 @@ Informar la cantidad de ventas por cada día, y el monto total acumulado en vent
 
 program punto7;
 var
-  i:integer;
-  monto:real;
-  ventas_dia:integer;
-  contadortotal:real;
+  i: integer;
+  monto: real;
+  ventas_dia: integer;
+  contadortotal: real;
 begin
-  contadortotal:=0;
-  for i:= 1 to 31 do begin
-    ventas_dia:=0;
+  contadortotal := 0;
+  for i := 1 to 31 do begin
+    ventas_dia := 0;
     repeat
-      WriteLn('ingrese monto: ');
+      WriteLn('Ingrese monto para el día ', i, ': ');
       readln(monto);
-      ventas_dia:=ventas_dia+1;
-      contadortotal:=contadortotal + monto;
-    until(monto=0);
-    writeln('cantida de ventas en el dia : ',ventas_dia);
+      if monto <> 0 then begin
+        ventas_dia := ventas_dia + 1;
+        contadortotal := contadortotal + monto;
+      end;
+    until monto = 0;  { Termina cuando se ingresa 0 }
+    
+    writeln('Cantidad de ventas en el día ', i, ': ', ventas_dia);
   end;
-  writeln('todas las ventas del mes: ',contadortotal);
+  writeln('Monto total acumulado en ventas del mes: ', contadortotal:0:2);
 end.

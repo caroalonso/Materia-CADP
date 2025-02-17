@@ -9,7 +9,7 @@ program punto5;
 
 procedure uno( num:integer;var cantdig:integer; var contador:integer);
 var 
-dig:integer;
+  dig:integer;
 begin
   while (num <> 0) do begin 
     dig:=num mod 10; 
@@ -20,9 +20,9 @@ begin
 end;
 
 var
-cantdig:integer;
-contador:integer;
-num:integer;
+  cantdig:integer;
+  contador:integer;
+  num:integer;
 begin
   cantdig:=0;
   contador:=0;

@@ -21,19 +21,19 @@ begin
 end;
 
 var
-num:integer;
-sumapar:integer;
-sumaimpar:integer;
+  num:integer;
+  sumapar:integer;
+  sumaimpar:integer;
 begin
-  writeln('ingrese un numero: ');
+  writeln('ingrese un numero: (finaliza con numero 123456)');
   readln(num);
   while(num <> 123456) do begin
     sumapar:=0;
     sumaimpar:=0;
     sumas(num,sumapar,sumaimpar);
-    writeln('suma de cantidad de digitos pares :',sumapar );
-    writeln('suma de cantidad de digitos impares:',sumaimpar);
-    writeln('ingrese un numero: ');
+    writeln('suma de los digitos pares :',sumapar );
+    writeln('suma de los digitos impares:',sumaimpar);
+    writeln('ingrese un numero: (finaliza con numero 123456) ');
     readln(num);
   end;
 end.

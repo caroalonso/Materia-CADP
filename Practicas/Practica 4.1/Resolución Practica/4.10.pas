@@ -11,62 +11,70 @@ b) Realizar un módulo que muestre en pantalla el sueldo promedio de los emplead
 
 program vectores;
 const
-  dimf=300;
+  dimf = 300;
 
 type
-  rango=1..dimf;
-  vector= array [rango] of real;  
-  
+  rango = 1..dimf;
+  vector = array [rango] of real;
+
 //PROCESOS
-procedure cargar_vector (var v:vector ; var diml:integer);
+procedure cargar_vector(var v: vector; var diml: integer);
 var
-salario:real;
+  salario: real;
 begin
-  WriteLn('ingrese salario:');
+  WriteLn('Ingrese salario (0 para finalizar):');
   readln(salario);
-  while(diml < dimf) and (salario <> 0) do begin
-    diml:=diml+1;
-    v[diml]:=salario;
-    WriteLn('ingrese salario:');
-    readln(salario);  
+  while (diml < dimf) and (salario <> 0) do
+  begin
+    diml := diml + 1;
+    v[diml] := salario;
+    WriteLn('Ingrese salario (0 para finalizar):');
+    readln(salario);
   end;
-  WriteLn('finalizo la carga.')
-end;    
+  WriteLn('Finalizó la carga.');
+end;
 
-
-procedure incrememento_salario (var v:vector ; diml:integer ; x:real);
+procedure incremento_salario(var v: vector; diml: integer; x: real);
 var
-i:integer;
+  i: integer;
 begin
-  for i := 1 to diml do begin
-    v[i]:=(v[i]*x);
+  for i := 1 to diml do
+  begin
+    v[i] := v[i] * x;
   end;
-end;    
+end;
 
-
-procedure promedio (v:vector;diml:integer);
+procedure promedio(v: vector; diml: integer);
 var
-i:integer;
-contador:real;
+  i: integer;
+  contador: real;
 begin
-  contador:=0;
-  for i := 1 to diml do begin
-    contador:=contador + v[i];
+  contador := 0;
+  for i := 1 to diml do
+  begin
+    contador := contador + v[i];
   end;
-  writeln('sueldo promedio de los empleados de la empresa: ',(contador/diml):0:2);
-end;  
-       
+  writeln('Sueldo promedio de los empleados de la empresa: ', (contador / diml):0:2);
+end;
 
 //PROGRAMA PRINCIPAL
 var
-v:vector;
-diml:integer;
-x:real;
+  v: vector;
+  diml: integer;
+  x: real;
 begin
-  diml:=0;
-  cargar_vector(v,diml);
-  WriteLn('ingresar valor X :');
-  readln(x);
-  incrememento_salario(v,diml,x);
-  promedio(v,diml);
-end.  
+  diml := 0;
+  cargar_vector(v, diml);
+  if diml > 0 then
+  begin
+    WriteLn('Ingresar valor X para incrementar el salario:');
+    readln(x);
+    incremento_salario(v, diml, x);
+    promedio(v, diml);
+  end
+  else
+  begin
+    WriteLn('No se ingresaron salarios.');
+  end;
+end.
+

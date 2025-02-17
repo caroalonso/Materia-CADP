@@ -4,15 +4,18 @@ que se ingrese uno cuyo valor sea exactcmente el doble de X (el primer número l
 
 program punto4;
 var
-  x:real;
-  num:real;
+  x, num: real;
 begin
   Writeln('Ingrese un numero:');
-  readln(num);
-  x:=num;
-  while(num <> (x*2) )do begin
+  readln(x);  { Aquí se lee el primer número y se asigna a x }
+  
+  Writeln('Ingrese un numero:');
+  readln(num);  { Luego, se lee otro número }
+
+  while(num <> (x * 2)) do begin
     Writeln('Ingrese un numero:');
-    readln(num);
+    readln(num);  { Se sigue leyendo hasta que num sea el doble de x }
   end;
+
   Writeln('fin');
 end.

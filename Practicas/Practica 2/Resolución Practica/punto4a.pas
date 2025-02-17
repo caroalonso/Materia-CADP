@@ -15,7 +15,7 @@ begin
   min1:=99999;
   min2:=99999;
   repeat
-    writeln('ingresar un numero: ');
+    writeln('ingresar un numero: (0 para finalizar)');
     readln(num);
     if ( num < min1)then begin
       min2:=min1;

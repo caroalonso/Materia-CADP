@@ -9,36 +9,46 @@ legajo sean menor al valor 2500.
 
 program punto6;
 var
-  legajo:integer;
-  contadoralumnos:integer;
-  promedio:real;
-  contadorpromedio6_5: real
-  alumnos_destacados:integer;
-  aux:integer;
+  legajo: integer;
+  contadoralumnos: integer;
+  promedio: real;
+  contadorpromedio6_5: integer;  { Cambié a entero ya que es un contador de alumnos }
+  alumnos_destacados: integer;
+  porcentaje_destacados: real;
 begin
-  contadorpromedio6_5:=0;
-  contadoralumnos:=0;
-  alumnos_destacados:=0;
-  writeLn('ingresar numero de legajo: ');
+  contadorpromedio6_5 := 0;
+  contadoralumnos := 0;
+  alumnos_destacados := 0;
+  
+  writeLn('Ingresar número de legajo: ');
   readln(legajo);
-  writeLn('ingresar promedio: ');
-  readl(promedio);
-  while (legajo <>(-1))do begin
-    contador:=contador+1;
-    if(promedio>6,5)then begin
-      contadorpromedio6_5:=contadorpromedio6_5+1;
-    end;
-    if(promedio>8,5) and (legajo<2500)then begin
-      alumnos_destacados:=alumnos_destacados+1;
-    end;
-    writeLn('ingresar numero de legajo: ');
-    readln(legajo);
-    writeLn('ingresar promedio: ');
+  
+  while (legajo <> -1) do begin
+    writeLn('Ingresar promedio: ');
     readln(promedio);
+    
+    contadoralumnos := contadoralumnos + 1;
+    
+    if (promedio > 6.5) then begin
+      contadorpromedio6_5 := contadorpromedio6_5 + 1;
+    end;
+    
+    if (promedio > 8.5) and (legajo < 2500) then begin
+      alumnos_destacados := alumnos_destacados + 1;
+    end;
+    
+    writeLn('Ingresar número de legajo: ');
+    readln(legajo);
   end;
-  aux:=(alumnos_destacados*100/contador);  { regla de 3 simples }                                 
-  writeln('la cantidad de alumnos es de : ',contador);
-  writeln('cantidad de alumnos cuyo promedio supera el 6,5 es de :' , contadorpromedio6_5);
-  writeln('la cantidad de alumnos destacados es de :' , aux);
+  
+  if contadoralumnos > 0 then begin
+    porcentaje_destacados := (alumnos_destacados * 100) / contadoralumnos;
+    writeln('La cantidad de alumnos leídos es: ', contadoralumnos);
+    writeln('Cantidad de alumnos cuyo promedio supera el 6.5: ', contadorpromedio6_5);
+    writeln('Porcentaje de alumnos destacados con legajo menor a 2500: ', porcentaje_destacados:0:2, '%');
+  end
+  else
+    writeln('No se ingresaron datos válidos.');
 end.
+
   

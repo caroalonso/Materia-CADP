@@ -10,7 +10,7 @@ var
   i:integer;
   num:integer;
 begin
-  max:=-999999999;
+  max:=-99999;
   for i:= 1 to 10 do begin 
     writeln('ingresar un numero: ');
     readln(num);

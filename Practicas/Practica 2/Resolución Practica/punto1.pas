@@ -3,15 +3,24 @@ a. Modifique el ejercicio 1 para que además informe la cantidad de números may
 
 program punto1;
 var
-  i:integer;
-  contador:integer;
-  num:integer;
+  i: integer;
+  contador: integer;
+  num: integer;
+  cantidad_mayores_a_5: integer;
 begin
-  contador :=0;
+  contador := 0;
+  cantidad_mayores_a_5 := 0;  { Inicializamos la variable para contar números mayores a 5 }
+  
   for i := 1 to 10 do begin
-    writeln('ingresar un numero: ');
+    writeln('Ingresar un número: ');
     readln(num);
+    
     contador := contador + num;
+    
+    if num > 5 then
+      cantidad_mayores_a_5 := cantidad_mayores_a_5 + 1;  { Contamos los números mayores a 5 }
   end;
-  writeln(' el resultado de la suma de los 10 numeros es de =' , contador); 
-end. 
+  
+  writeln('El resultado de la suma de los 10 números es: ', contador); 
+  writeln('La cantidad de números mayores a 5 es: ', cantidad_mayores_a_5);
+end.

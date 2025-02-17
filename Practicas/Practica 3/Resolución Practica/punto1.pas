@@ -14,18 +14,21 @@ se esta pasando por referencia.
 
 program punto1;
 
-procedure suma(num1: integer; var num2:integer);
+procedure suma(num1: integer; var num2: integer);
 begin
- num2 := num1 + num2;
- num1 := 0;
+  num2 := num1 + num2;
+  num1 := 0;  // Esto no afecta a i en el ciclo
 end;
+
 var
- i, x : integer;
+  i, x: integer;
 begin
- writeLn('ingrese numero: ');
- read(x); { leo la variable x }
- for i:= 1 to 5 do
- suma(i,x);
- write(x); { imprimo las variable x }
+  writeLn('ingrese numero: ');
+  read(x);  { leo la variable x }
+  
+  for i := 1 to 5 do
+    suma(i, x);  { Llamada al procedimiento suma }
+    
+  write(x);  { imprimo la variable x }
 end.
 

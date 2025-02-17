@@ -1,22 +1,29 @@
 { 8. Realizar un programa que lea tres caracteres, e informe si los tres eran letras vocales o si
 al menos una de ellos no lo era.}
 
-Program punto8;
+program punto8;
 var
-  letra1:char;
-  letra2:char;
-  letra3:char;
+  letra1, letra2, letra3: char;
+
+function esVocal(letra: char): boolean;
 begin
-  writeLn('ingrese una letra: ');
+  letra := LowerCase(letra);  { Para no distinguir entre mayúsculas y minúsculas }
+  esVocal := (letra = 'a') or (letra = 'e') or (letra = 'i') or (letra = 'o') or (letra = 'u');
+end;
+
+begin
+  writeln('Ingrese una letra: ');
   readln(letra1);
-  writeLn('ingrese una letra: ');
-  readln(lertra2);
-  writeLn('ingrese una letra: ');
+  writeln('Ingrese una letra: ');
+  readln(letra2);
+  writeln('Ingrese una letra: ');
   readln(letra3);
-  if((letra1= 'a') or (letra1= 'e') or (letra1='i') or (letra1='o') or (letra1= 'u')) and ((letra2= 'a') or (letra2= 'e') or (letra2='i') or (letra2='o') or (letra2= 'u')) and ((letra3= 'a') or (letra3= 'e') or (letra3='i') or (letra3='o') or (letra3= 'u')) then 
-    writeln('las tres letras son vocales')
-  else begin
-    if ((letra1= 'a') or (letra1= 'e') or (letra1='i') or (letra1='o') or (letra1= 'u')) or ((letra2= 'a') or (letra2= 'e') or (letra2='i') or (letra2='o') or (letra2= 'u')) or (( letra3 = 'a') or (letra3='e') or (letra3= 'i') or (letra3='o') or (letra3='u')) then 
-      writeln('al menos una letra es vocal');
-  end;    
+
+  if esVocal(letra1) and esVocal(letra2) and esVocal(letra3) then
+    writeln('Las tres letras son vocales')
+  else if esVocal(letra1) or esVocal(letra2) or esVocal(letra3) then
+    writeln('Al menos una letra es vocal')
+  else
+    writeln('Ninguna de las letras es vocal');
 end.
+

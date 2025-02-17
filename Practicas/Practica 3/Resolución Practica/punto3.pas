@@ -1,5 +1,4 @@
-{
-3. Qué imprime si se lee la siguientes secuencia de valores? 250, 35, 100 (imprime la cantidad de numeros
+{3. Qué imprime si se lee la siguientes secuencia de valores? 250, 35, 100 (imprime la cantidad de numeros
 pares e impares que se ingresaron  pares: 2,0,0,0 y impar: 5,3,5,1)
 }
 
@@ -30,3 +29,4 @@ begin
    until (dato = 100);
  writeln('pares: ',par, ' impares: ', impar);
 end.
+

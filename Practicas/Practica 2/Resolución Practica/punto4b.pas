@@ -17,7 +17,7 @@ var
 begin 
   min1:=99999;
   min2:=99999;
-  writeln('ingresar un numero: ');
+  writeln('ingresar un numero: (0 para finalizar)');
   readln(num);
   while(num <> 0)do begin
     if(num < min1)then begin
@@ -28,7 +28,7 @@ begin
       if(num < min2)then 
         min2:=num
     end;
-    writeln('ingresar un numero: ');
+    writeln('ingresar un numero: (0 para finalizar)');
     readln(num);
   end;
   writeln('los dos numeros minimos leidos son el ', min1,' y el ',min2);

@@ -16,74 +16,89 @@ Los dígitos que no tuvieron ocurrencias son: 0, 1, 2, 5, 7, 8
 
 program punto7;
 type
-vector=array [0..9] of integer;
+  vector = array[0..9] of integer;
 
-//PROCESOS
-procedure inicializar_vector(var v:vector);
+// PROCESOS
+procedure inicializar_vector(var v: vector);
 var
-i:integer;
+  i: integer;
 begin
   for i := 0 to 9 do begin
-    v[i]:=0;
+    v[i] := 0;
   end;
-end;   
+end;
 
- 
-procedure descomponer(var v:vector;num:integer);  
+procedure descomponer(var v: vector; num: integer);
 var
-  dig:integer;
+  dig: integer;
 begin
-  if(num = 0)then begin
-    v[num]:=v[num]+1;
+  if num = 0 then begin
+    v[num] := v[num] + 1;
   end;
-  while(num <> 0)do begin
-    dig:= num mod 10;
-    v[dig]:= v[dig]+1;
-    num:= num div 10;
-  end;  
-end;          
+  while num <> 0 do begin
+    dig := num mod 10;
+    v[dig] := v[dig] + 1;
+    num := num div 10;
+  end;
+end;
 
-
-procedure recorrer(v:vector);
+procedure recorrer(v: vector);
 var
-i:integer;
-max:integer;
+  i: integer;
+  max: integer;
+  max_digit: integer;
 begin
-  max:= -1;
+  max := -1;
+  max_digit := -1;
+  
   for i := 0 to 9 do begin
-    if (v[i] <> 0) then 
-      writeln('Numero ',i,': ',v[i],' veces');
-    if (v[i] > max)then 
-      max:= v[i]
-  end;
-  writeln('El digito mas leido fue el : ', max);      
-end;  
-
-procedure no_esta(v:vector);
-var
-i:integer;
-begin
-  writeln('Los digitos que no tuvieron ocurrencias son:');
-  for i := 0 to 9 do begin
-    if (v[i]=0)then begin
-      write(',',i);
+    if v[i] <> 0 then
+      writeln('Número ', i, ': ', v[i], ' veces');
+    if v[i] > max then begin
+      max := v[i];
+      max_digit := i;
     end;
   end;
-end;        
   
-//PROGRAMA PRINCIPAL
+  writeln('El dígito más leído fue el: ', max_digit);
+end;
+
+procedure no_esta(v: vector);
 var
-  v:vector;
-  num:integer;
+  i: integer;
+  first: boolean;
+begin
+  writeln('Los dígitos que no tuvieron ocurrencias son:');
+  first := true;
+  
+  for i := 0 to 9 do begin
+    if v[i] = 0 then begin
+      if not first then
+        write(', ');
+      write(i);
+      first := false;
+    end;
+  end;
+  
+  writeln;  { Para dar un salto de línea al final. }
+end;
+
+// PROGRAMA PRINCIPAL
+var
+  v: vector;
+  num: integer;
 begin
   inicializar_vector(v);
-  writeln('ingresa un numero:');
+  writeln('Ingresa un número:');
   readln(num);
-  while (num <> -1)do begin
-    descomponer(v,num);
-    writeln('ingresa un numero:');
+  
+  while num <> -1 do begin
+    descomponer(v, num);
+    writeln('Ingresa un número:');
     readln(num);
   end;
+  
   recorrer(v);
-  no_esta(v)
+  no_esta(v);
 end.
+

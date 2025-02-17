@@ -5,20 +5,26 @@ X” }
 
 program punto5;
 var
-  x:real;
-  num:real;
-  contador:integer;
+  x, num: real;
+  contador: integer;
 begin
- contador:=0;
- writeln('ingrese un numero:');
- readln(num);
- x:=num; 
- while (num <>(x*2)) and (contador < 10) do begin      {(contador < 10) xq solo evaluo 10 numeros y el contador empieza en 0 y el cero tambien se procesa : 0,1,2,3,4,5,6,7,8,9 =10 numeros}
-   writeln('ingrese un numero:');
-   readln(num);
-   contador:=contador+1;
- end;
- if(contador=10) then begin
-  writeln ('No se  ingresao el doble de' , x );
- end;
+  contador := 0;
+  
+  writeln('Ingrese un numero:');
+  readln(x);  { Lee el primer número y lo asigna a x }
+  
+  writeln('Ingrese un numero:');
+  readln(num);  { Lee el primer número después de X }
+  
+  while (num <> (x * 2)) and (contador < 9) do begin  { Alcanza un máximo de 9 números después de X }
+    contador := contador + 1;  { Incrementa el contador antes de leer el siguiente número }
+    writeln('Ingrese un numero:');
+    readln(num);
+  end;
+  
+  if (num = (x * 2)) then
+    writeln('Se ha ingresado el doble de X.')
+  else
+    writeln('No se ha ingresado el doble de ', x:0:2);
 end.
+

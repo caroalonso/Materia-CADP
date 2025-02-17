@@ -11,37 +11,37 @@ b. Si se leé el carácter “+” y la secuencia -10 5 6 -1 0, deberá imprimir
 
 program punto9;
 var
-  caracter:char;
+  caracter: char;
   contador: integer;
-  num:integer;
+  num: integer;
 begin
-  contador:=0;
-  writeln('ingresar caracter: ');
+  writeln('Ingresar caracter (+ o -): ');
   readln(caracter);
-  if(caracter='-') or ( caracter ='+') then begin
-    if(caracter='+')then begin
-      writeln('ingresar un numero: ');
+  
+  if (caracter = '+') or (caracter = '-') then begin
+    writeln('Ingresar un número: ');
+    readln(num);
+    
+    contador := num;  { Inicializamos el contador con el primer número }
+
+    writeln('Ingresar números (finaliza con 0): ');
+    readln(num);
+    
+    while (num <> 0) do begin
+      if (caracter = '+') then
+        contador := contador + num
+      else
+        contador := contador - num;
+      
+      writeln('Ingresar un número: ');
       readln(num);
-      while (num <> 0) do begin
-        contador := contador + num;
-        writeln('ingresar un numero: ');
-        readln(num);
-      end;
-      writeln('resultado: ', contador);
-    end  
-    else begin
-      writeln('ingresar un numero: ');
-      readln(num);
-      while (num<>0) do begin
-        contador:= contador - num;
-        writeln('ingresar un numero: ');
-        readln(num);
-      end;
-      writeln('resultado: ', contador);
     end;
-  end  
-  else begin 
-    writeln('Error');
+    
+    writeln('Resultado: ', contador);
+  end
+  else begin
+    writeln('Error: Caracter no válido');
   end;
 end.
+
       

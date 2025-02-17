@@ -4,18 +4,17 @@ números leídos son iguales”}
 
 program punto1;
 var
-num1:integer;
-num2:integer;
-begin 
-writeln('Ingrese numero 1 :');
-readln(num1);
-writeln('Ingrese numero 2 :');
-readln(num2);
-if (num1 = num2) then 
-  writeln('Los numeros leidos son iguales')
-else
-  if(num1 > num2)then 
-    writeln(num1)
+  num1, num2: integer;
+begin
+  writeln('Ingrese el primer número:');
+  readln(num1);
+  writeln('Ingrese el segundo número:');
+  readln(num2);
+  
+  if (num1 = num2) then
+    writeln('Los números leídos son iguales')
+  else if (num1 > num2) then
+    writeln('El mayor es: ', num1)
   else
-    writeln(num2);
+    writeln('El mayor es: ', num2);
 end.

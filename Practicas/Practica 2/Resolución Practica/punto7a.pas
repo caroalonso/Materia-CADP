@@ -10,27 +10,34 @@ mayor cantidad de ventas.
 
 program punto7a;
 var
-  i:integer;
-  monto:real;
-  ventas_dia:integer;
-  contadortotal:real;
-  dia:integer;
-  max:integer;
+  i: integer;
+  monto: real;
+  ventas_dia: integer;
+  contadortotal: real;
+  dia: integer;
+  max: integer;
 begin
-  max:=000;
-  contadortotal:=0;
-  for i:= 1 to 31 do begin
-    ventas_dia:=0;
+  max := 0;
+  contadortotal := 0;
+  for i := 1 to 31 do begin
+    ventas_dia := 0;
     repeat
-      WriteLn('ingrese monto: ');
+      WriteLn('Ingrese monto para el día ', i, ': ');
       readln(monto);
-      ventas_dia:=ventas_dia+1;
-      contadortotal:=contadortotal + monto;
-    until(monto=0);
-    writeln('cantida de ventas en el dia : ',ventas_dia);
-    if(ventas_dia > max)then
-      max:= ventas_dia;
-      dia:=i;
+      if monto <> 0 then begin
+        ventas_dia := ventas_dia + 1;
+        contadortotal := contadortotal + monto;
+      end;
+    until monto = 0;  { Termina cuando se ingresa 0 }
+    
+    writeln('Cantidad de ventas en el día ', i, ': ', ventas_dia);
+    
+    if ventas_dia > max then begin
+      max := ventas_dia;
+      dia := i;
+    end;
   end;
-  writeln('todas las ventas del mes: ',contadortotal);
+  
+  writeln('Monto total acumulado en ventas del mes: ', contadortotal:0:2);
+  writeln('El día con mayor cantidad de ventas fue el día ', dia, ' con ', max, ' ventas.');
 end.

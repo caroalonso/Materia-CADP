@@ -39,7 +39,7 @@ cod2:integer;
 begin
   max:=-1;
   min:= 9999;
-  for i:= 1 to 2 do begin
+  for i:= 1 to 2 do begin // se leen 100 pero 2 para prueba
     writeln('ingrese precio de producto:');
     readln(precio);
     writeln('ingrese codigo de producto:');

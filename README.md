@@ -15,8 +15,14 @@
 
 🔹 **Ejercicios:**  
 💻 [Ejercicio 1](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%202/Resoluci%C3%B3n%20Practica/punto1.pas) | 💻 [Ejercicio 2](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%202/Resoluci%C3%B3n%20Practica/punto2.pas) | 💻 [Ejercicio 2.a](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%202/Resoluci%C3%B3n%20Practica/punto2a.pas)  
+<<<<<<< HEAD
 💻 [Ejercicio 3](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%202/Resoluci%C3%B3n%20Practica/punto3.pas) | 💻 [Ejercicio 4](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%202/Resoluci%C3%B3n%20Practica/punto4.pas) | 💻 [Ejercicio 4.a](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%202/Resoluci%C3%B3n%20Practica/punto4a.pas)  
 💻 [Ejercicio 4.b](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%202/Resoluci%C3%B3n%20Practica/punto4b.pas) | 💻 [Ejercicio 5](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%202/Resoluci%C3%B3n%20Practica/punto5.pas) | 💻 [Ejercicio 6](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%202/Resoluci%C3%B3n%20Practica/punto6.pas)  
+=======
+💻 [Ejercicio 3](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%202/Resoluci%C3%B3n%20Practica/punto3.pas) | 💻 [Ejercicio 4](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%202/Resoluci%C3%B3n%20Practica/punto4.pas)  
+💻 [Ejercicio 4.a](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%202/Resoluci%C3%B3n%20Practica/punto4a.pas) | 💻 [Ejercicio 4.b](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%202/Resoluci%C3%B3n%20Practica/punto4b.pas)  
+💻 [Ejercicio 5](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%202/Resoluci%C3%B3n%20Practica/punto5.pas) | 💻 [Ejercicio 6](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%202/Resoluci%C3%B3n%20Practica/punto6.pas)  
+>>>>>>> 395ea438999733b45d1a8948a077d12d8aed424b
 💻 [Ejercicio 7](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%202/Resoluci%C3%B3n%20Practica/punto7.pas) | 💻 [Ejercicio 7.a](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%202/Resoluci%C3%B3n%20Practica/punto7a.pas)
 
 ---
@@ -76,4 +82,4 @@
 💻 [Ejercicio 4](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.4.pas) | 💻 [Ejercicio 5](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.5.pas) | 💻 [Ejercicio 6](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.6.pas)  
 💻 [Ejercicio 7](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.7.pas) | 💻 [Ejercicio 8](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.8.pas) | 💻 [Ejercicio 9](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.9.pas)  
 💻 [Ejercicio 10](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.10.pas) | 💻 [Ejercicio 11](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.11.pas) | 💻 [Ejercicio 12](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.12.pas)  
-💻 [Ejercicio 13](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.13.pas) | 💻 [Ejercicio 14](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.14.pas) 
+💻 [Ejercicio 13](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.13.pas) | 💻 [Ejercicio 14](https://github.com/Caarito/Materia-CADP/blob/main/Practicas/Practica%204.1/Resoluci%C3%B3n%20Practica/4.14.pas)  
